@@ -11,9 +11,9 @@ Screen summarization aims to generate concise textual descriptions that communic
 ## Main results
 | Model         | Ref.point | BLEU1 | BLEU2 | BLEU3 | BLEU4 | ROUGE-L | CIDEr |
 |---------------|-----------|-------|-------|-------|-------|---------|-------|
-| Screen2Words  | Abs.      | 65.6  | 45.8  | 32.4  | 25.1  | 48.6    | 61.3  |
+| Screen2Words  | Abs.      | 65.6  | 45.8  | 32.4  | **25.1**  | 48.6    | 61.3  |
 | VUT           | Abs.      | 68.9  | 50.8  | 33.5  | 21.4  | 54.9    | 65.6  |
-| **OHiFormer** | **Rel.**  | **72.53** | **52.9**  | **33.62** | **23.78** | **56.7** | **83.18** |
+| **OHiFormer** | **Rel.**  | **72.53** | **52.9**  | **33.62** | 23.78 | **56.7** | **83.18** |
    
 ## Citation
 ```
